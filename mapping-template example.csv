@@ -1,0 +1,23 @@
+TemplateName,InputColumn,OutputColumn,TransformationRule,headerRowNumber,firstRowNumber
+Agency A,Payee ID,employeeid,Direct,1,2
+Agency A,Contractor,firstname,Split:Firstname,1,2
+Agency A,Contractor,surname,Split:Surname,1,2
+Agency A,,weekending,Default:,1,2
+Agency A,Pay Code,description,Direct,1,2
+Agency A,Rate,rate,Direct,1,2
+Agency A,Quantity,amount,Direct,1,2
+Agency A,,unit,Default:,1,2
+Agency B,Timesheet Id,employeeid,Direct,1,2
+Agency B,Contractor name,firstname,SplitR:Surname,1,2
+Agency B,Contractor name,surname,SplitR:Firstname,1,2
+Agency B,Rate description,description,Direct,1,2
+Agency B,Pay rate,rate,Direct,1,2
+Agency B,Work quantity,amount,Direct,1,2
+Agency B,,unit,Direct,1,2
+Agency B_ik+1,Timesheet Id,employeeid,Direct,1,2
+Agency B_ik+1,Contractor name,firstname,SplitR:Surname,1,2
+Agency B_ik+1,Contractor name,surname,SplitR:Firstname,1,2
+Agency B_ik+1,Rate,description,Direct,1,2
+Agency B_ik+1,Pay rate,rate,Direct,1,2
+Agency B_ik+1,Work quantity,amount,Direct,1,2
+Agency B_ik+1,,unit,Direct,1,2
